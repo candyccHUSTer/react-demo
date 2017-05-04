@@ -1,0 +1,8 @@
+logs
+*.log
+bundle.js
+*.bundle.js
+node_modules
+.DS_Store
+dist
+build
