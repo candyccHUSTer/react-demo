@@ -34,8 +34,8 @@ module.exports = {
             options: {
               modules: true,
               localIdentName: '[name]--[local]-[hash:base64:5]',
-              minimize      : true,
-              importLoaders : 1
+              minimize: true,
+              importLoaders: 1
             }
           },
           {
@@ -48,8 +48,8 @@ module.exports = {
       },
 
       {
-        test : /\.png$/,
-        use : 'url-loader'
+        test: /\.png$/,
+        use: 'url-loader'
       }
     ]
   },

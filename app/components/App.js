@@ -1,8 +1,13 @@
 import React from 'react';
 
-require('./App.css');
+const style = require('./app.scss');
 
-export default () => <h1>Hello World11111112222222333333defeffmere</h1>;
+export default () => (
+  <div>
+    <h1 className={style.red}>Hello World!</h1>
+    <h2 className="blue">Welcome~~~</h2>
+  </div>
+);
 
 /*
 export default class App extends React.Component {
